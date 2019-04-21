@@ -4,6 +4,10 @@
 [Vue CLI 3](https://bootstrap-vue.js.org/docs)  
 `npx @vue/cli create my-project`  
 
+`npm i bootstrap-vue`  
+
+[components](https://bootstrap-vue.js.org/docs/components)  
+
 ## Project setup
 ```
 npm install
