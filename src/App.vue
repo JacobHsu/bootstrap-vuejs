@@ -1,7 +1,5 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    
     <b-alert show>Default Alert</b-alert>
     <b-alert variant="success" show dismissible>Success Alert</b-alert>
     <b-alert v-model="showDismissibleAlert" variant="danger" dismissible>
@@ -12,11 +10,17 @@
     </b-button>
 
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+    <section class="bg-light" v-if="!isLoading">
+      <tab-bar></tab-bar>
+    </section>
+
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
+import TabBar from './components/TabBar.vue'
 
 export default {
   name: "app",
@@ -24,7 +28,8 @@ export default {
     return {
       dismissSecs: 10,
       dismissCountDown: 0,
-      showDismissibleAlert: false
+      isLoading: false,
+      showDismissibleAlert: false,
     };
   },
   methods: {
@@ -36,7 +41,8 @@ export default {
     }
   },
   components: {
-    HelloWorld
+    HelloWorld,
+    TabBar
   }
 };
 </script>

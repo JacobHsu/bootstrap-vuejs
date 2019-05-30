@@ -8,6 +8,18 @@
 
 [components](https://bootstrap-vue.js.org/docs/components)  
 
+
+`$ npm run serve`
+
+# References
+
+[vue-i18n](https://kazupon.github.io/vue-i18n/)  `src\main.js`
+npm [vue-i18n](https://www.npmjs.com/package/vue-i18n)  
+
+
+Font Awesome [start](https://fontawesome.com/start) `public\index.html`
+
+
 ## Project setup
 ```
 npm install
