@@ -9,6 +9,7 @@
       Show dismissible alert ({{ showDismissibleAlert ? 'visible' : 'hidden' }})
     </b-button>
 
+    <input-groups :frequency.sync="freq"></input-groups>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
 
     <section class="bg-light" v-if="!isLoading">
@@ -20,7 +21,9 @@
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
-import TabBar from './components/TabBar.vue'
+import InputGroups from './components/InputGroups.vue';
+import TabBar from './components/TabBar.vue';
+
 
 export default {
   name: "app",
@@ -30,6 +33,7 @@ export default {
       dismissCountDown: 0,
       isLoading: false,
       showDismissibleAlert: false,
+      freq: 6,
     };
   },
   methods: {
@@ -42,6 +46,7 @@ export default {
   },
   components: {
     HelloWorld,
+    InputGroups,
     TabBar
   }
 };

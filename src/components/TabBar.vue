@@ -29,7 +29,7 @@ export default {
     return {
       paths: ['music', 'movie', 'search', 'member'],
       icons: [
-        ['fal fa-camera fa-2x', 'fas fa-music fa-2x'],
+        ['fa fa-camera fa-2x', 'fas fa-music fa-2x'],
         ['fa fa-film fa-2x', 'fas fa-film fa-2x'],
         ['fa fa-search fa-2x', 'fas fa-search fa-2x'],
         ['fa fa-user fa-2x', 'fas fa-user fa-2x']
