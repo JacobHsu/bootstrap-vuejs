@@ -11,6 +11,9 @@
 
 `$ npm run serve`
 
+# npm 
+`npm i vue-router`  
+
 # References
 
 [vue-i18n](https://kazupon.github.io/vue-i18n/)  `src\main.js`

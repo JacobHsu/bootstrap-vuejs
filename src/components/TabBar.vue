@@ -59,7 +59,22 @@ export default {
             loading: false
           }
         })
-    }
+    },
+    tabClick(id) {
+      console.log( id, this.$route.name,this.paths )
+      const routeName = this.$route.name == 'home' ? 'music' : this.$route.name
+      const entryIndex = this.paths.indexOf(routeName)
+
+      if (entryIndex !== id) {
+        this.tabs.map(_ => _.active = false)
+        //this.tabs[id].loading = true
+        window.setTimeout(() => {
+          this.$router.push({
+            name: this.tabs[id].path
+          })
+        }, 50)
+      }
+    },
   }
 }
 </script>
