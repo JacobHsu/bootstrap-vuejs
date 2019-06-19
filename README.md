@@ -19,7 +19,25 @@
 
 # npm 
 `npm i vue-router`  
+`npm install gh-pages --save-dev`  
 
+package.json
+```js
+  "homepage": "https://jacobhsu.github.io/bootstrap-vuejs/",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+```
+
+vue.config.js
+```js
+module.exports = {
+    publicPath: 'bootstrap-vuejs' 
+}
+```
 
 # References
 

@@ -2,10 +2,12 @@
   "name": "bootstrap-vuejs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jacobhsu.github.io/bootstrap-vuejs/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "bootstrap-vue": "^2.0.0-rc.18",
@@ -22,6 +24,7 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "gh-pages": "^2.0.1",
     "vue-template-compiler": "^2.5.21"
   },
   "eslintConfig": {
