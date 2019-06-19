@@ -61,11 +61,11 @@ export default {
         })
     },
     tabClick(id) {
-      console.log( id, this.$route.name,this.paths )
-      const routeName = this.$route.name == 'home' ? 'music' : this.$route.name
-      const entryIndex = this.paths.indexOf(routeName)
 
-      if (entryIndex !== id) {
+      const routeName = this.$route.name == 'home' ? 'music' : this.$route.name
+      const pathsIndex = this.paths.indexOf(routeName)
+
+      if (pathsIndex !== id) {
         this.tabs.map(_ => _.active = false)
         //this.tabs[id].loading = true
         window.setTimeout(() => {

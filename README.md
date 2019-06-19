@@ -8,11 +8,18 @@
 
 [components](https://bootstrap-vue.js.org/docs/components)  
 
+## Usage
 
 `$ npm run serve`
+`$ yarn serve`
+
+# Docs 
+
+[Form Select](https://bootstrap-vue.js.org/docs/components/form-select/) - Bootstrap Vue
 
 # npm 
 `npm i vue-router`  
+
 
 # References
 
