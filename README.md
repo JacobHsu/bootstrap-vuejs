@@ -15,7 +15,8 @@
 
 # Docs 
 
-[Form Select](https://bootstrap-vue.js.org/docs/components/form-select/) - Bootstrap Vue
+[Form Select](https://bootstrap-vue.js.org/docs/components/form-select/) - Bootstrap Vue  
+[Input Groups](https://bootstrap-vue.js.org/docs/components/input-group/)
 
 # npm 
 `npm i vue-router`  

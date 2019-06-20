@@ -9,6 +9,16 @@
       Show dismissible alert ({{ showDismissibleAlert ? 'visible' : 'hidden' }})
     </b-button>
 
+    <b-input-group>
+      <!-- <b-input-group-text slot="append">CNY</b-input-group-text> -->
+      <b-form-input class="border-right-0"></b-form-input>
+      <b-input-group-append class="input-group-append bg-white">
+        <div class="d-flex align-self-center mx-2">
+          CNY
+        </div>
+      </b-input-group-append>
+    </b-input-group>
+
     <input-groups :frequency.sync="freq"></input-groups>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
 
@@ -45,3 +55,10 @@ export default {
   }
 }
 </script>
+
+<style>
+  .input-group-append {
+    border: 1px solid #ced4da;
+  }
+
+</style>
