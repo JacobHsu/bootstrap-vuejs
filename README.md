@@ -39,10 +39,16 @@ module.exports = {
 }
 ```
 
+`npm install --save vee-validate`
+
 # References
 
 [vue-i18n](https://kazupon.github.io/vue-i18n/)  `src\main.js`
 npm [vue-i18n](https://www.npmjs.com/package/vue-i18n)  
+[VeeValidate](https://baianat.github.io/vee-validate/) Template Based Validation Framework for Vue.js
+[numeric](https://baianat.github.io/vee-validate/guide/rules.html#numeric)  
+npm [vee-validate](https://www.npmjs.com/package/vee-validate)  
+[Vue.js + VeeValidate - Form Validation Example](https://jasonwatmore.com/post/2018/08/01/vuejs-veevalidate-form-validation-example)  
 
 
 Font Awesome [start](https://fontawesome.com/start) `public\index.html`

@@ -1,17 +1,20 @@
 <template>
-  <b-input-group prepend="hold mousedown" class="mt-3">
-    <b-input-group-prepend>
-      <b-button variant="outline-success" @mousedown="minus" :disabled="frequency <= min">
-        <i class="fas fa-minus"></i>
-      </b-button>
-    </b-input-group-prepend>
-    <b-form-input type="text" v-model="frequency"></b-form-input>
-    <b-input-group-append>
-      <b-button variant="info" @mousedown="press(plus)" @mouseup="stopInterval" :disabled="frequency >= max">
-        <i class="fas fa-plus"></i>
-      </b-button>
-    </b-input-group-append>
-  </b-input-group>
+  <div>
+    <b-input-group prepend="hold mousedown" class="mt-3">
+      <b-input-group-prepend>
+        <b-button variant="outline-success" @mousedown="minus" :disabled="frequency <= min">
+          <i class="fas fa-minus"></i>
+        </b-button>
+      </b-input-group-prepend>
+      <b-form-input type="text" v-model="frequency"></b-form-input>
+      <b-input-group-append>
+        <b-button variant="info" @mousedown="press(plus)" @mouseup="stopInterval" :disabled="frequency >= max">
+          <i class="fas fa-plus"></i>
+        </b-button>
+      </b-input-group-append>
+    </b-input-group>
+    
+  </div>
 </template>
 
 

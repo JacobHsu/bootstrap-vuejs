@@ -1,5 +1,8 @@
 <template>
   <div>
+    <input v-validate="'numeric'" data-vv-as="field" name="numeric_field" type="text">
+    <div class="text-danger" v-if="errors.has('numeric_field')">{{ errors.first('numeric_field') }}</div>
+    
     <b-form-select v-model="selected" :options="options"></b-form-select>
     <div class="mt-3">Selected: <strong>{{ selected }}</strong></div>
   </div>
