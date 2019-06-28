@@ -11,10 +11,10 @@
     <b-list-group flush>
       <b-list-group-item href="#">
         <b-row>
-          <b-col col="6">
-             <i class="fas fa-university"></i> icon
+          <b-col cols="6" class="d-flex align-items-center">
+             <i class="fas fa-university mr-1"></i>  icon
           </b-col>
-          <b-col col="6">
+          <b-col cols="6">
             <div class="d-inline-block ml-2 text-left text-nowrap">
               <div><span>title</span></div>
               <div><span class="text-black-50">description</span></div>
