@@ -54,6 +54,8 @@ npm [vee-validate](https://www.npmjs.com/package/vee-validate)
 
 Font Awesome [start](https://fontawesome.com/start) `public\index.html`
 
+BV [List group](https://bootstrap-vue.js.org/docs/components/list-group/#list-groups-inside-cards)  
+Bootstrap4 [List group](https://getbootstrap.com/docs/4.0/components/list-group/#Flush)  
 
 ## Project setup
 ```

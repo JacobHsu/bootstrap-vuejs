@@ -5,6 +5,27 @@
     
     <b-form-select v-model="selected" :options="options"></b-form-select>
     <div class="mt-3">Selected: <strong>{{ selected }}</strong></div>
+
+    <hr>  
+    <h3>flush</h3>
+    <b-list-group flush>
+      <b-list-group-item href="#">
+        <b-row>
+          <b-col col="6">
+             <i class="fas fa-university"></i> icon
+          </b-col>
+          <b-col col="6">
+            <div class="d-inline-block ml-2 text-left text-nowrap">
+              <div><span>title</span></div>
+              <div><span class="text-black-50">description</span></div>
+            </div>
+          </b-col>
+        </b-row>
+      </b-list-group-item>
+      <b-list-group-item href="#">Dapibus ac facilisis in</b-list-group-item>
+      <b-list-group-item href="#">Vestibulum at eros</b-list-group-item>
+    </b-list-group>
+
   </div>
 </template>
 
